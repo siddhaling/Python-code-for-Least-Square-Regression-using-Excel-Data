@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 fileNmIn='Data.xlsx'
 
-df=pd.read_excel('.\\data\\Data.xlsx',sheet_name='Sheet1')
+df=pd.read_excel('Data.xlsx',sheet_name='Sheet1')
 N=df.shape[0]
 xSum=df['x'].sum()
 ySum=df['y'].sum()
